@@ -6,6 +6,8 @@ def calculator(operation, num1, num2):
 		return num1 - num2
 	if operation == "multiply":
 		return num1 * num2
+	if operation == "power":
+		return num1 ** num2
 	if operation == "divide":
 		if num2 == 0:
 			raise ValueError("Cannot divide by zero")
